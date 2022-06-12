@@ -13,12 +13,13 @@ def return_dashboard(dashboard):
 @app.route("/")
 @app.route("/main")
 def main():
-    train_df = pd.read_csv(TRAIN_PATH)
-    test_df = pd.read_csv(TEST_PATH)
-    X, y = feature_engineering(train_df, test_df)
-    explainer = create_explainer(X, y)
-    db = create_dashboard(explainer, app)
-    return_dashboard(db)
+    return "Hello Wolrd"
+   # train_df = pd.read_csv(TRAIN_PATH)
+   # test_df = pd.read_csv(TEST_PATH)
+   # X, y = feature_engineering(train_df, test_df)
+   # explainer = create_explainer(X, y)
+   # db = create_dashboard(explainer, app)
+   # return_dashboard(db)
 
 
 if __name__ == "__main__":
