@@ -34,5 +34,5 @@ if __name__ == "__main__":
 # Exemple de dashboard dans heroku :
 # http://titanicexplainer.herokuapp.com/
 
-# Lire ça et suivre les instructions pour déployer mon explainer sur heroku :
+# Lire ça et suivre les instructions pour deployer mon explainer sur heroku :
 # https://github.com/oegedijk/explainerdashboard/blob/479746e7caa5ebe5521b81536f65c41c02750acc/docs/source/deployment.rst
